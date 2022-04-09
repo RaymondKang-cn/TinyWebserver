@@ -5,15 +5,8 @@
     ```C++
     const char* doc_root=".../static";
     ```
-
 * make编译，生成webserver
 
-* 启动webserver
+* 启动webserver: ./webserver 
 
-    ```C++
-    ./webserver 
-    ```
-
-* 浏览器访问
-  
-  /url 0.0.0.0/10000/index.html
+* 浏览器访问 :/url 0.0.0.0/10000/index.html
