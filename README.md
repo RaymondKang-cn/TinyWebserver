@@ -6,11 +6,7 @@
     const char* doc_root=".../static";
     ```
 
-* 生成webserver
-
-    ```C++
-    make
-    ```
+* make编译，生成webserver
 
 * 启动webserver
 
@@ -18,8 +14,6 @@
     ./webserver 
     ```
 
-* 浏览器端
-
-    ```C++
-    ip:port
-    ```
+* 浏览器访问
+  
+  /url 0.0.0.0/10000/index.html
