@@ -1,7 +1,5 @@
-# webserver
+# TinyWebserver
 
-使用
-------------
 * 修改http_conn.cpp中doc_root路径为 ./static 文件夹所在路径
 
     ```C++
