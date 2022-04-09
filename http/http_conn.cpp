@@ -11,7 +11,7 @@ const char *error_500_title = "Internal Error";
 const char *error_500_form = "There was an unusual problem serving the requested file.\n";
 
 // !!!
-const char *doc_root = "/home/b227/km/Linux/tinywebserver/static";
+const char *doc_root = ".../tinywebserver/static";
 
 int setnonblocking(int fd)
 {
