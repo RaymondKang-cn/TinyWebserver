@@ -9,4 +9,4 @@
 
 * 启动webserver: ./webserver 
 
-* 浏览器访问 :/url 0.0.0.0/10000/index.html
+* 浏览器访问 :/url 0.0.0.0/8888/index.html
