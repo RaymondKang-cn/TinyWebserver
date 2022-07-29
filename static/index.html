@@ -3,19 +3,28 @@
 
 <head>
         <meta charset="UTF-8">
-        <title>WebServer</title>
+        <title>Tiny Homepage</title>
 </head>
-
 <body>
-        <a href="/index.html">Home</a>   <a href="/aboutme.html">About Me</a>
-        <br />
-        <br />
-        <font size="5"> <strong>Welcome</strong></font>
-        <br />
-        <br />
-        <form action="1" method="post">
-                <button type="submit" style="width:90px;height:30px">Video</button>
-        </form>
+        <h1>TinyWebserver's tiny homepage</h1>
+        <p>
+        <code>tinywebserver</code> is a simple HTTP server written in C++ 
+        which is an individual project to learn the http protocol and UNIX system calls.
+        </p>
+
+        <p>
+        <code>tinywebserver</code> supports multi-client concurrent access and GET and POST http requests.
+        </p>
+
+        <p>
+        Here is the GET test: <a href="/aboutme.html">About Me</a>.
+        </p>
+
+        <p>
+        <form action="1" method="post"> Here also is a <button type="submit" style="width:60px;height:30px">Video</button> for POST test.</form>
+        </p>
+
+
 </body>
 
 </html>
